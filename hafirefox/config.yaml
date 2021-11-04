@@ -1,5 +1,6 @@
+---
 name: Firefox
-version: 1.0.0
+version: v1.0.0
 slug: hafirefox
 description: Firefox Browser
 url: https://github.com/artur-braga/hass-firefox
@@ -7,7 +8,6 @@ init: false
 arch:
   - aarch64
   - amd64
-  - armhf
   - armv7
   - i386
 panel_icon: "mdi:firefox"
@@ -22,4 +22,4 @@ ports:
   3000/tcp: null
 ports_description:
   3000/tcp: "Web interface (Not required for Home Assistant Ingress)"
-image: ghcr.io/hass-firefox/hafirefox/{arch}
+image: ghcr.io/artur-braga/hass-firefox/hafirefox/{arch}
