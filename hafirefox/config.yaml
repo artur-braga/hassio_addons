@@ -13,9 +13,9 @@ arch:
 panel_icon: "mdi:firefox"
 ingress: true
 environment:
-  PUID: 1000
-  PGID: 1000
-  TZ: Europe/London
+  PUID: "1000"
+  PGID: "1000"
+  TZ: "Europe/London"
 map:
   - config:rw
 ports:
