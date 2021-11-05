@@ -1,6 +1,6 @@
 ---
 name: Firefox
-version: 1.0.0
+version: 1.0.1
 slug: hafirefox
 description: Firefox Browser
 url: https://github.com/artur-braga/hass-firefox
